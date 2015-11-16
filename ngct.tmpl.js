@@ -8,8 +8,17 @@
 
   function $controllerName$($injectables$) {
     var vm = this;
-    
+
     $END$
+
+    activate();
+
+    ////////////
+
+    function activate() {
+
+    }
+
   }
 
 })();
