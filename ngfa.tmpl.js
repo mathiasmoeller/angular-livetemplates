@@ -1,19 +1,13 @@
-(function() {
+angular
+  .module('$moduleName$')
+  .factory('$factoryName$', $factoryName$);
 
-  'use strict';
+function $factoryName$($injectables$) {
+  var service = {
+    $exposedFunctions$
+  };
 
-  angular
-    .module('$moduleName$')
-    .factory('$factoryName$', $factoryName$);
+  return service;
 
-  function $factoryName$($injectables$) {
-    var service = {
-      $exposedFunctions$
-    };
-    
-    return service;
-
-    $END$
-  }
-
-})();
+  $END$
+}

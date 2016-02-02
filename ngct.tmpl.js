@@ -1,24 +1,18 @@
-(function() {
+angular
+  .module('$moduleName$')
+  .controller('$controllerName$', $controllerName$);
 
-  'use strict';
+function $controllerName$($injectables$) {
+  var vm = this;
 
-  angular
-    .module('$moduleName$')
-    .controller('$controllerName$', $controllerName$);
+  $END$
 
-  function $controllerName$($injectables$) {
-    var vm = this;
+  activate();
 
-    $END$
+  ////////////
 
-    activate();
-
-    ////////////
-
-    function activate() {
-
-    }
+  function activate() {
 
   }
 
-})();
+}

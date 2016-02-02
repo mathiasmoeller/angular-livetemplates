@@ -1,13 +1,7 @@
-(function() {
+angular
+  .module('$moduleName$')
+  .run($runName$);
 
-  'use strict';
-
-  angular
-    .module('$moduleName$')
-    .run($runName$);
-
-  function $runName$($injectables$) {
-    $END$
-  }
-
-})();
+function $runName$($injectables$) {
+  $END$
+}

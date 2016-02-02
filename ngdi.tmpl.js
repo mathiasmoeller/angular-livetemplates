@@ -1,17 +1,11 @@
-(function() {
+angular
+  .module('$moduleName$')
+  .directive('$directiveName$', $directiveName$);
 
-  'use strict';
+function $directiveName$($injectables$) {
+  return {
+    $directiveDefinitionObject$
+  };
 
-  angular
-    .module('$moduleName$')
-    .directive('$directiveName$', $directiveName$);
-
-  function $directiveName$($injectables$) {
-    return {
-      $directiveDefinitionObject$
-    };
-    
-    $END$
-  }
-
-})();
+  $END$
+}

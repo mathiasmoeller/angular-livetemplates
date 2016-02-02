@@ -1,10 +1,4 @@
-(function() {
-
-  'use strict';
-
-  angular
-    .module('$moduleName$', [
-      $END$
-    ]);
-
-})();
+angular
+  .module('$moduleName$', [
+    $END$
+  ]);
