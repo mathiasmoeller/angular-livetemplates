@@ -1,6 +1,6 @@
 describe('Service: $serviceName$', function() {
 
-  beforeEach(module('onedata'));
+  beforeEach(module('$module$'));
 
   var $serviceName$;
 

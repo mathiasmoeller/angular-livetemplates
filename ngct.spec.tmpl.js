@@ -1,6 +1,6 @@
 describe('Controller: $controllerName$', function() {
 
-  beforeEach(module('onedata'));
+  beforeEach(module('$module$'));
 
   var vm;
   var $scope;

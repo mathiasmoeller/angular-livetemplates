@@ -1,6 +1,6 @@
 describe('Filter: $suiteName$', function() {
 
-  beforeEach(module('onedata'));
+  beforeEach(module('$module$'));
 
   var $filter;
 

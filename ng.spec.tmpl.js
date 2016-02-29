@@ -1,6 +1,6 @@
 describe('$suiteName$', function() {
 
-  beforeEach(module('onedata'));
+  beforeEach(module('$module$'));
 
   var $specObject$;
 

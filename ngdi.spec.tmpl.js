@@ -1,7 +1,6 @@
 describe('Directive: $suiteName$', function() {
 
-  beforeEach(module('onedata'));
-  beforeEach(module('onedata.templates'));
+  beforeEach(module('$module$'));
 
   var element;
   var $scope;
