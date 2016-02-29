@@ -11,6 +11,13 @@ AngularJS live templates for Jetbrains IDEs like IntelliJ IDEA, PhpStorm or WebS
 * [Angular Controller](ngct.tmpl.js) (utilizing controllerAs vm)
 * [Angular Directive](ngdi.tmpl.js) (generic)
 
+### Unit test templates
+* [General test suite](ng.spec.tmpl.js)
+* [Controller test suite](ngct.spec.tmpl.js)
+* [Directive test suite](ngdi.spec.tmpl.js)
+* [Filter test suite](ngfi.spec.tmpl.js)
+* [Service test suite](ngse.spec.tmpl.js)
+
 ## Installation
 
 Installation is currently just possible by hand. JetBrains IDEs provide an integrated Import/Export functionality which is based on JAR files. However, it is not possible to exports a custom subset of all live templates. Hints for a better workflow are appreciated.
